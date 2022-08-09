@@ -29,3 +29,8 @@ void Main(string[] array1, string[] array2)
         }
     }
 }
+Main(texts,result);
+for (int i = 0; i < result.Length; i++)
+{
+      Console.WriteLine(result[i]);
+}
